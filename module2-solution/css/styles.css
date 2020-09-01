@@ -1,0 +1,95 @@
+
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5%;
+  }
+  
+  p {
+    font-size: 1.1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 40px 0 0 0;
+
+  }
+  body>div>div{
+    border: 1px solid black;
+    background: #cac7ca;
+    position: relative;
+  }
+  body>div>div div{
+    width: 120px;
+    text-align:center;
+    padding: 5px 10px;
+    position: absolute;
+    right:0;
+    top:0;
+  }
+  .t1 {
+    text-align: center;
+    background-color: crimson;
+    border: 1px solid black;
+    padding: 5px 5px;
+    width:120px;
+	  font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blanchedalmond;
+  }
+  .t2 {
+    text-align: center;
+    background-color: rgb(220, 133, 20);
+    border: 1px solid black;
+    padding: 5px 5px;
+    width:120px;
+	  font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blanchedalmond;
+  }
+  .t3 {
+    text-align: center;
+    background-color: rgb(173, 20, 220);
+    border: 1px solid black;
+    padding: 5px 5px;
+    width:120px;
+	  font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blanchedalmond;
+  }
+ /********** Large devices only **********/
+  @media (min-width: 992px) {
+    body>div>div{
+      width: 31.33%;
+      float: left;
+      margin: 10px 1%;
+      padding:10px 20px;
+    }
+}
+/********** Medium devices only **********/
+  @media (min-width:768px) and (max-width:991px) {
+    body>div>div{
+        width: 48%;
+        float: left;
+        margin: 10px 1%;
+        padding:10px 20px;
+    }
+    .m3
+    {
+        width: 98%;
+        margin: 10px 1%;
+    }
+}
+/********** Small devices only **********/
+@media (max-width:767px) {
+    body>div>div{
+        width: 98%;
+        float: left;
+        margin: 10px 1%;
+        padding:10px 20px;
+    }
+}
