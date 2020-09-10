@@ -15,6 +15,20 @@ h1{
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#nav-list a {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+#nav-list a:hover {
+  background: #fdffe6;
+}
+#header-nav {
+  background-color: #cac7ca;
+  border-radius: 0;
+  border: 0;
+}
 .row>div>div{/*TITULO DE CONTENIDO*/
   font-size: 1.2em;
   position: relative;
@@ -37,8 +51,33 @@ h1{
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+  text-shadow: 1px 1px 1px rgb(68, 68, 68);
   margin-top: 0;
   margin-left: 0;
   line-height: .75;
+  color: #000;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #154682;
+  margin-bottom: 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
