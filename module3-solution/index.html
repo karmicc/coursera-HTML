@@ -4,29 +4,86 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Starter Page</title>
+    <title>Module 3 Coding Assignment</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
-
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right hidden-md hidden-lg hidden-sm">
+            <li>
+              <a href="#chicken">
+                <br> Chicken</a>
+            </li>
+            <li>
+              <a href="#beef">
+                <br> Beef</a>
+            </li>
+            <li>
+              <a href="#sushi">
+                <br> Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+  <h1 name="#top">Our Menu</h1>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-4 col-sm-6">Col 1</div>
-      <div class="col-md-4 col-sm-6">Col 2</div>
-      <div class="col-md-4 col-sm-6">Col 3</div>
-    </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div ><a name="chicken"></a>Chicken</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mi risus, faucibus quis nunc eget, vulputate pretium est. Proin nec tellus eget mi aliquet vulputate. Nam id vehicula risus, eu commodo massa. Nunc ante nisi, placerat at dignissim quis, egestas nec est. Vivamus laoreet nibh nec tristique tempor. Nunc lobortis at mauris iaculis fermentum. Morbi et purus velit. Sed posuere nisi eget libero finibus dapibus.
 
-    <div class="row">
-      <div class="col-md-4 col-sm-6">Col 1</div>
-      <div class="col-md-4 col-sm-6">Col 2</div>
-      <div class="col-md-4 col-sm-6">Col 3</div>
-    </div>
+          Phasellus tempus placerat nunc in sagittis. Integer hendrerit tempor lorem, eu semper diam porta id. Proin lacinia tortor odio, a mattis magna dictum eget. Etiam ut dui quis nunc finibus auctor eu nec nisi. Curabitur nec pharetra urna. Integer ante orci, pretium faucibus metus sed, eleifend faucibus nulla. Proin vulputate et ante id elementum. Quisque luctus in elit nec bibendum. Suspendisse et eros dui. In laoreet magna at hendrerit congue. Curabitur venenatis ultricies nisl ac lacinia. Maecenas ut convallis sem. Sed ultrices tristique pulvinar. Sed vel facilisis nunc. Praesent quis hendrerit sem. Suspendisse magna massa, ultrices eu condimentum vitae, feugiat a leo.
+          
+          Nam pulvinar mauris vitae nulla facilisis vehicula. Nullam et iaculis arcu, mattis vestibulum mauris. In hac habitasse platea dictumst. Nunc sollicitudin imperdiet est, eu rutrum lectus blandit ac. Aenean a arcu purus. Integer lectus eros, fermentum quis ante vitae, feugiat fermentum tellus. Nullam ultricies congue mattis. Cras egestas posuere faucibus. Duis elementum, diam sit amet vulputate efficitur, est dui rhoncus leo, a ornare nulla ex non enim. Maecenas lacinia nisl a imperdiet finibus. Maecenas pellentesque dolor augue, sed varius nunc pretium at.
+          
+          Nam gravida sem dolor, in semper ligula porta sed. Suspendisse laoreet laoreet leo non commodo. Proin sed tortor nisi. Nunc luctus nisi lacus, eget ultricies mauris condimentum vitae. Phasellus ac lacinia nisl. Duis sit amet enim lorem. Ut euismod volutpat luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut convallis, tortor in sagittis pulvinar, felis sapien molestie sem, a dapibus nisi diam sit amet augue. Proin malesuada libero erat, dictum rhoncus nunc vestibulum eu.
+          
+          Vivamus euismod est molestie volutpat pellentesque. Proin eget commodo tellus. Suspendisse viverra, nunc ut rutrum pellentesque, velit dolor egestas tortor, ac aliquam nisl nisi in elit. Ut vehicula nisi dui, ac lacinia velit commodo eu. Nulla ultricies velit odio, a imperdiet magna convallis in. Suspendisse mattis accumsan ultrices. Morbi feugiat pretium nisl a sollicitudin. Nam condimentum bibendum nulla eget commodo. Nam et pellentesque ligula. Aenean hendrerit cursus dolor. Vestibulum lacinia leo eget convallis semper.</p>
+          <a class="btt hidden-lg hidden-md" href="#top">Back To Top</a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div ><a name="beef"></a>Beef</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mi risus, faucibus quis nunc eget, vulputate pretium est. Proin nec tellus eget mi aliquet vulputate. Nam id vehicula risus, eu commodo massa. Nunc ante nisi, placerat at dignissim quis, egestas nec est. Vivamus laoreet nibh nec tristique tempor. Nunc lobortis at mauris iaculis fermentum. Morbi et purus velit. Sed posuere nisi eget libero finibus dapibus.
 
-    <div class="row">
-      <div class="col-xs-6">Col 1</div>
-      <div class="col-xs-6">Col 2</div>
-      <div class="col-xs-6">Col 3</div>
+          Phasellus tempus placerat nunc in sagittis. Integer hendrerit tempor lorem, eu semper diam porta id. Proin lacinia tortor odio, a mattis magna dictum eget. Etiam ut dui quis nunc finibus auctor eu nec nisi. Curabitur nec pharetra urna. Integer ante orci, pretium faucibus metus sed, eleifend faucibus nulla. Proin vulputate et ante id elementum. Quisque luctus in elit nec bibendum. Suspendisse et eros dui. In laoreet magna at hendrerit congue. Curabitur venenatis ultricies nisl ac lacinia. Maecenas ut convallis sem. Sed ultrices tristique pulvinar. Sed vel facilisis nunc. Praesent quis hendrerit sem. Suspendisse magna massa, ultrices eu condimentum vitae, feugiat a leo.
+          
+          Nam pulvinar mauris vitae nulla facilisis vehicula. Nullam et iaculis arcu, mattis vestibulum mauris. In hac habitasse platea dictumst. Nunc sollicitudin imperdiet est, eu rutrum lectus blandit ac. Aenean a arcu purus. Integer lectus eros, fermentum quis ante vitae, feugiat fermentum tellus. Nullam ultricies congue mattis. Cras egestas posuere faucibus. Duis elementum, diam sit amet vulputate efficitur, est dui rhoncus leo, a ornare nulla ex non enim. Maecenas lacinia nisl a imperdiet finibus. Maecenas pellentesque dolor augue, sed varius nunc pretium at.
+          
+          Nam gravida sem dolor, in semper ligula porta sed. Suspendisse laoreet laoreet leo non commodo. Proin sed tortor nisi. Nunc luctus nisi lacus, eget ultricies mauris condimentum vitae. Phasellus ac lacinia nisl. Duis sit amet enim lorem. Ut euismod volutpat luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut convallis, tortor in sagittis pulvinar, felis sapien molestie sem, a dapibus nisi diam sit amet augue. Proin malesuada libero erat, dictum rhoncus nunc vestibulum eu.
+          
+          Vivamus euismod est molestie volutpat pellentesque. Proin eget commodo tellus. Suspendisse viverra, nunc ut rutrum pellentesque, velit dolor egestas tortor, ac aliquam nisl nisi in elit. Ut vehicula nisi dui, ac lacinia velit commodo eu. Nulla ultricies velit odio, a imperdiet magna convallis in. Suspendisse mattis accumsan ultrices. Morbi feugiat pretium nisl a sollicitudin. Nam condimentum bibendum nulla eget commodo. Nam et pellentesque ligula. Aenean hendrerit cursus dolor. Vestibulum lacinia leo eget convallis semper.</p>
+          <a class="btt hidden-lg hidden-md" href="#top">Back To Top</a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div ><a name="sushi"></a>Sushi</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mi risus, faucibus quis nunc eget, vulputate pretium est. Proin nec tellus eget mi aliquet vulputate. Nam id vehicula risus, eu commodo massa. Nunc ante nisi, placerat at dignissim quis, egestas nec est. Vivamus laoreet nibh nec tristique tempor. Nunc lobortis at mauris iaculis fermentum. Morbi et purus velit. Sed posuere nisi eget libero finibus dapibus.
+
+          Phasellus tempus placerat nunc in sagittis. Integer hendrerit tempor lorem, eu semper diam porta id. Proin lacinia tortor odio, a mattis magna dictum eget. Etiam ut dui quis nunc finibus auctor eu nec nisi. Curabitur nec pharetra urna. Integer ante orci, pretium faucibus metus sed, eleifend faucibus nulla. Proin vulputate et ante id elementum. Quisque luctus in elit nec bibendum. Suspendisse et eros dui. In laoreet magna at hendrerit congue. Curabitur venenatis ultricies nisl ac lacinia. Maecenas ut convallis sem. Sed ultrices tristique pulvinar. Sed vel facilisis nunc. Praesent quis hendrerit sem. Suspendisse magna massa, ultrices eu condimentum vitae, feugiat a leo.
+          
+          Nam pulvinar mauris vitae nulla facilisis vehicula. Nullam et iaculis arcu, mattis vestibulum mauris. In hac habitasse platea dictumst. Nunc sollicitudin imperdiet est, eu rutrum lectus blandit ac. Aenean a arcu purus. Integer lectus eros, fermentum quis ante vitae, feugiat fermentum tellus. Nullam ultricies congue mattis. Cras egestas posuere faucibus. Duis elementum, diam sit amet vulputate efficitur, est dui rhoncus leo, a ornare nulla ex non enim. Maecenas lacinia nisl a imperdiet finibus. Maecenas pellentesque dolor augue, sed varius nunc pretium at.
+          
+          Nam gravida sem dolor, in semper ligula porta sed. Suspendisse laoreet laoreet leo non commodo. Proin sed tortor nisi. Nunc luctus nisi lacus, eget ultricies mauris condimentum vitae. Phasellus ac lacinia nisl. Duis sit amet enim lorem. Ut euismod volutpat luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut convallis, tortor in sagittis pulvinar, felis sapien molestie sem, a dapibus nisi diam sit amet augue. Proin malesuada libero erat, dictum rhoncus nunc vestibulum eu.
+          
+          Vivamus euismod est molestie volutpat pellentesque. Proin eget commodo tellus. Suspendisse viverra, nunc ut rutrum pellentesque, velit dolor egestas tortor, ac aliquam nisl nisi in elit. Ut vehicula nisi dui, ac lacinia velit commodo eu. Nulla ultricies velit odio, a imperdiet magna convallis in. Suspendisse mattis accumsan ultrices. Morbi feugiat pretium nisl a sollicitudin. Nam condimentum bibendum nulla eget commodo. Nam et pellentesque ligula. Aenean hendrerit cursus dolor. Vestibulum lacinia leo eget convallis semper.</p>
+          <a class="btt hidden-lg hidden-md" href="#top">Back To Top</a>
+      </div>
     </div>
   </div>
 

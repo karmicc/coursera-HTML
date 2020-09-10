@@ -1,7 +1,44 @@
 .row {
   margin-bottom: 15px;
 }
-.row > div {
-  border: 2px solid red;
-  background-color: gray;
+.row p { /*CONTENIDO*/
+  background-color: #cac7ca;
+  position: relative;
+  float: left;
+  padding: 40px 20px 20px 20px;
+  border: 1px solid black;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.row>div>div{/*TITULO DE CONTENIDO*/
+  font-size: 1.2em;
+  position: relative;
+  width: 100%;
+  height: 30px;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1px auto 1px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  color: blanchedalmond;
+  font-weight: bold;
+  background-color: crimson;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-left: 0;
+  line-height: .75;
 }
